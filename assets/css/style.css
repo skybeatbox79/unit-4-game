@@ -1,48 +1,98 @@
 body {
     background-image: url("../images/background.jpg");
+    margin-left: 20px;
 }
 
-.container-fluid {
-    width: 70%;
-    height: 100%;
-}
-
-.row {
-    margin: 10px 10px 10px 10px;
+header {
+	width: 400px;
+	height: 70px;
+    background-color: orange;
+    margin-top: 20px;
 }
 
 h1 {
-    background-color: orange;
-    font-size: 6vh;
+	text-align: center;
+    font-size: 45px;
+    font-weight: bold;
     color: white;
-    text-align: center;
-    width: auto;
-    height: auto;
+    line-height: 70px;
 }
 
-#instruction {
-    background-color: lightyellow;
-    color: green;
+.instruction {
+	background-color: lightyellow;
+	padding-top: 10px;
+	width: 600px;
+	height: 370px;
+	margin-top: 10px;
+}
+
+p {
+	color: green;
+    font-size: 20px;
+    font-weight: bold;
+	padding: 5px;
+}
+
+.random {
+    margin-top: 10px;
+    width: 420px;
+}
+
+.value {
+    background-color: lightseagreen;
+    color: purple;
+	font-size: 50px;
+	margin-right: 10px;
+	width: 280px;
+    height:	130px;
+    padding: 5px;
+    float: left;
+}
+
+.wins-losses {
+    background-color: skyblue;
+    font-size: 20px;
+	text-align: center;
+	width: 100px;
+    height: 130px;
+    padding: 5px;
+    color: white;
+    float: right;
+}
+
+#wins, #losses, .wins-losses h2 {
+    color: blue;
     font-weight: bold;
 }
 
-#score {
-    background-color: lightgreen;
-    color: purple;
-    margin-right: 10px;
-}
-
-#game-status {
-    background-color: lightblue;
-    color: blue;
+.images {
+    clear: both;
 }
 
 .gem {
-    width: 6vw;
-    height: 12vh;
-    background-color: rgb(236, 229, 216);
+    margin-top: 10px;
+	height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 3px solid red;
 }
 
-#total-score {
-    background-color: darkcyan;
+.score {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+	margin-top: 10px;
+	width: 200px;
+    height: auto;
+    padding: 5px;
+}
+
+.total-score {
+    background-color: teal;
+    color: white;
+	font-size: 45px;
+	margin-top: 10px;
+	width: 200px;
+    height: 100px;
+    padding: 5px;
 }
