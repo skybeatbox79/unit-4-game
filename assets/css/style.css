@@ -1,0 +1,48 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.container-fluid {
+    width: 70%;
+    height: 100%;
+}
+
+.row {
+    margin: 10px 10px 10px 10px;
+}
+
+h1 {
+    background-color: orange;
+    font-size: 6vh;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#instruction {
+    background-color: lightyellow;
+    color: green;
+    font-weight: bold;
+}
+
+#score {
+    background-color: lightgreen;
+    color: purple;
+    margin-right: 10px;
+}
+
+#game-status {
+    background-color: lightblue;
+    color: blue;
+}
+
+.gem {
+    width: 6vw;
+    height: 12vh;
+    background-color: rgb(236, 229, 216);
+}
+
+#total-score {
+    background-color: darkcyan;
+}
